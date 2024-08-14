@@ -7,8 +7,6 @@ const Todo_List = () => {
   const [editText, setEditText] = useState("");
   const [filter, setFilter] = useState("all");
   const [activeButton, setActiveButton] = useState("all");
-  
-  <button></button>
 
   const handleFilterChange = (newFilter) => {
     setFilter(newFilter);
