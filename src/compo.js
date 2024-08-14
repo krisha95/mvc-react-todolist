@@ -16,14 +16,14 @@ const detaildefs = [
     id: "feedStatusId",
   },
 ];
-
+// selectedEventTask array
 const selectedEventTask = {
   serviceCd: "serviceCd",
   targetTable: "targetTable",
   field: "field",
   feedStatusId: "feedStatusId",
 };
-
+// data object
 const data = {
   serviceCd: selectedEventTask.serviceCd ?? "",
   targetTable: selectedEventTask.targetTable ?? "",
